@@ -23,10 +23,9 @@ const App = () => {
     return (
         <>
             <div className="container">
-                <h2>Speech to Text Converter</h2>
+                <h2>Dictate Me</h2>
                 <br/>
-                <p>A React hook that converts speech from the microphone to text and makes it available to your React
-                    components.</p>
+                <p>How to Use: Click Start to begin speech recognition, Stop to end it, and Copy to copy the transcribed text to your clipboard.</p>
 
                 <div className="main-content" onClick={() =>  setTextToCopy(transcript)}>
                     {transcript}
