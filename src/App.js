@@ -11,7 +11,7 @@ const App = () => {
         successDuration:1000
     });
 
-    //subscribe to thapa technical for more awesome videos
+
 
     const startListening = () => SpeechRecognition.startListening({ continuous: true, language: 'en-IN' });
     const { transcript, browserSupportsSpeechRecognition } = useSpeechRecognition();
